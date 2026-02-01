@@ -1,0 +1,723 @@
+[
+  [
+    "Category",
+    "Type",
+    "Description",
+    "Amount",
+    "Month"
+  ],
+  [
+    "Running cost",
+    "Renting",
+    "HomeAway subscription",
+    "$499.00",
+    "Jan 2019"
+  ],
+  [
+    "Maintenance",
+    "Chimney cleaning & cap",
+    "Chimney cleaning & cap",
+    "$700.00",
+    "Jan 2019"
+  ],
+  [
+    "Improvement",
+    "Outdoors",
+    "Chris Cariera - Patio",
+    "$115.00",
+    "Jan 2019"
+  ],
+  [
+    "Running cost",
+    "Heat & hot water",
+    "Oil",
+    "$340.26",
+    "Feb 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$14.77",
+    "Jan 2019"
+  ],
+  [
+    "Running cost",
+    "Electric",
+    "SREC sale (credited to account) - June 2018",
+    "-$280.00",
+    "Jan 2019"
+  ],
+  [
+    "Running cost",
+    "Electric",
+    "SREC sale (credited to account) - July & Aug 2018",
+    "-$609.00",
+    "Feb 2019"
+  ],
+  [
+    "Running cost",
+    "Renting",
+    "Tru Haven Dues 2018",
+    "$450.00",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Renting",
+    "Town of Truro Licensing Dept",
+    "$200.00",
+    "Mar 2019"
+  ],
+  [
+    "Improvement",
+    "Outdoors",
+    "Tree removal Ethan",
+    "$900.00",
+    "Jan 2019"
+  ],
+  [
+    "Maintenance",
+    "Appliances & plumbing",
+    "Joe & Son appliance - Washer/dryer",
+    "$154.38",
+    "Jan 2019"
+  ],
+  [
+    "Improvement",
+    "Appliances & plumbing",
+    "Plumber dishwasher install",
+    "$258.28",
+    "Jan 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Tom Mantz",
+    "$250.00",
+    "March 2019"
+  ],
+  [
+    "Maintenance",
+    "Furnace cleaning",
+    "Cape Cod Oil - Furnace Cleaning",
+    "$214.00",
+    "March 2019"
+  ],
+  [
+    "Improvement",
+    "Furniture",
+    "Home Depot - Lawn furniture",
+    "$903.00",
+    "April 2019"
+  ],
+  [
+    "Improvement",
+    "Furniture",
+    "Wayfair - Futon",
+    "$213.00",
+    "April 2019"
+  ],
+  [
+    "Improvement",
+    "Appliances & plumbing",
+    "Amazon - Grill coal equipment",
+    "$212.24",
+    "March 2019"
+  ],
+  [
+    "Improvement",
+    "Furniture",
+    "Amazon - Hammock",
+    "$41.43",
+    "March 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "January 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "February 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "March 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "April 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$79.00",
+    "April 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Sara Barber-Just",
+    "$175.00",
+    "April 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Easter",
+    "$175.00",
+    "April 2019"
+  ],
+  [
+    "Improvement",
+    "Outdoors",
+    "Lawn Chris loom & seed",
+    "$160.00",
+    "April 2019"
+  ],
+  [
+    "Maintenance",
+    "Misc",
+    "Conwell - paint etc",
+    "$107.00",
+    "April 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Stop & Shop - cleaning supplies",
+    "$201.66",
+    "April 2019"
+  ],
+  [
+    "Maintenance",
+    "Misc",
+    "Mid-Cape - Door knob",
+    "$43.99",
+    "April 2019"
+  ],
+  [
+    "Maintenance",
+    "Misc",
+    "Conwell - lightbulbs",
+    "$3.18",
+    "April 2019"
+  ],
+  [
+    "Maintenance",
+    "Misc",
+    "Amazon - beach chairs + umbrellas",
+    "$113.31",
+    "April 2019"
+  ],
+  [
+    "Maintenance",
+    "Misc",
+    "Rental car for maintenance visit",
+    "$37.51",
+    "April 2019"
+  ],
+  [
+    "Running cost",
+    "Electric",
+    "ACE rebate",
+    "-$385.75",
+    "April 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$128.00",
+    "April 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Electric",
+    "SREC sale (credited to account) - Nov & Dec 2018",
+    "-$618.44",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Heat & hot water",
+    "Cape Cod Oil",
+    "$372.00",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Jessica Johnson",
+    "$225.00",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival David Laroche",
+    "$225.00",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Colin",
+    "$225.00",
+    "May 2019"
+  ],
+  [
+    "Improvement",
+    "Furniture",
+    "Crate & barrel; return 29-May created balance",
+    "-$60.44",
+    "May 2019"
+  ],
+  [
+    "Improvement",
+    "Furniture",
+    "Amazon - rush for chair seats",
+    "$45.99",
+    "May 2019"
+  ],
+  [
+    "Improvement",
+    "Furniture",
+    "Amazon - chair connectors",
+    "$14.99",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Leah",
+    "$225.00",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Renting",
+    "Guest gift custom soaps - Washashore ",
+    "$90.00",
+    "May 2019"
+  ],
+  [
+    "Improvement",
+    "Furniture",
+    "Amazon - box for outdoor cushions",
+    "$159.36",
+    "May 2019"
+  ],
+  [
+    "Maintenance",
+    "Linens & beds",
+    "Amazon - sheets twin",
+    "$40.36",
+    "May 2019"
+  ],
+  [
+    "Maintenance",
+    "Linens & beds",
+    "Amazon - twin mattress",
+    "$123.00",
+    "May 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$113.08",
+    "May 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "June 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Alex Lacern",
+    "$225.00",
+    "June 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Kristen Frenis",
+    "$275.00",
+    "June 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Dan Green",
+    "$225.00",
+    "June 2019"
+  ],
+  [
+    "Maintenance",
+    "Misc",
+    "Old washing machine to transfer station",
+    "$25.00",
+    "June 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Erin Fahey",
+    "$225.00",
+    "June 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Sarah Levy",
+    "$225.00",
+    "June 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Jon Rolhling",
+    "$225.00",
+    "June 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$113.00",
+    "July 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "July 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Stop & Shop - cleaning supplies",
+    "$182.10",
+    "July 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Scott Ferguson",
+    "$275.00",
+    "July 2019"
+  ],
+  [
+    "Running cost",
+    "Outdoors",
+    "Lawn & driveway - Desmond",
+    "$200.00",
+    "July 2019"
+  ],
+  [
+    "Maintenance",
+    "Linens & beds",
+    "Amazon - couch cover ",
+    "$170.00",
+    "July 2019"
+  ],
+  [
+    "Improvement",
+    "Outdoors",
+    "Amazon - bat house",
+    "$30.00",
+    "July 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Kevin Aberg",
+    "$275.00",
+    "July 2019"
+  ],
+  [
+    "Maintenance",
+    "Misc",
+    "Water quality test",
+    "$45.00",
+    "July 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Stop & Shop - cleaning supplies",
+    "$9.55",
+    "July 2019"
+  ],
+  [
+    "Maintenance",
+    "Misc",
+    "Conwell - trash can",
+    "$21.24",
+    "July 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$113.08",
+    "July 2019"
+  ],
+  [
+    "Running cost",
+    "Electric",
+    "SREC sale (credited to account) - WHEN?",
+    "-$279.00",
+    "July 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "August 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Alina Roytberg",
+    "$275.00",
+    "August 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Miles Braffett",
+    "$275.00",
+    "August 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Cindy Hall",
+    "$275.00",
+    "August 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Sasha L",
+    "$275.00",
+    "August 2019"
+  ],
+  [
+    "Running cost",
+    "Outdoors",
+    "Lawn Desmond",
+    "$100.00",
+    "August 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Jessica  Dube",
+    "$275.00",
+    "August 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$113.08",
+    "August 2019"
+  ],
+  [
+    "Improvement",
+    "Outdoors",
+    "Overstock - Fire Pit",
+    "$119.52",
+    "September 2019"
+  ],
+  [
+    "Maintenance",
+    "Electric",
+    "Maintenance - Electric Long Point check",
+    "$91.35",
+    "September 2019"
+  ],
+  [
+    "Maintenance",
+    "Electric",
+    "Maintenance - Electric Long Point check",
+    "$90.94",
+    "September 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Town of Truro Tax Collector ",
+    "$120.43",
+    "September 2019"
+  ],
+  [
+    "Maintenance",
+    "Appliances & plumbing",
+    "Pierce Plumbing ($120)",
+    "$120.00",
+    "September 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "September 2019"
+  ],
+  [
+    "Improvement",
+    "Outdoors",
+    "Amazon - 2 coolers",
+    "$102.00",
+    "September 2019"
+  ],
+  [
+    "Improvement",
+    "Outdoors",
+    "Amazon tiki torches",
+    "$65.60",
+    "September 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Kyle Williams",
+    "$275.00",
+    "September 2019"
+  ],
+  [
+    "Running cost",
+    "Outdoors",
+    "Desmond yard + trash",
+    "$50.00",
+    "September 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Jamie Mantagas",
+    "$225.00",
+    "September 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Mary-Helene Labrie",
+    "$225.00",
+    "September 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,704.00",
+    "October 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$113.08",
+    "October 2019"
+  ],
+  [
+    "Running cost",
+    "Renting",
+    "Tru Haven Dues 2019/2020",
+    "$450.00",
+    "October 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,794.00",
+    "November 2019"
+  ],
+  [
+    "Running cost",
+    "Electric",
+    "SREC sale (credited to account)",
+    "-$868.00",
+    "November 2019"
+  ],
+  [
+    "Running cost",
+    "Heat & hot water",
+    "Oil",
+    "$228.50",
+    "November 2019"
+  ],
+  [
+    "Improvement",
+    "Appliances & plumbing",
+    "Joe & Son appliance - Stove & hood",
+    "$967.25",
+    "November 2019"
+  ],
+  [
+    "Recurring",
+    "Mortgage & taxes",
+    "Cape Cod Five",
+    "$2,724.00",
+    "December 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$113.08",
+    "December 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Cleaning pre-arrival Leslie Dixon",
+    "$175.00",
+    "December 2019"
+  ],
+  [
+    "Running cost",
+    "Cleaning",
+    "Gift Racquel & Desmond Xmas",
+    "$100.00",
+    "December 2019"
+  ],
+  [
+    "Running cost",
+    "Wifi & cable",
+    "Comcast",
+    "$113.08",
+    "December 2019"
+  ]
+]

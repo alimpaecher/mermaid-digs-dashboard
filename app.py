@@ -3,6 +3,7 @@
 import streamlit as st
 
 from etl.pipeline import extract_and_transform
+from etl.cache import get_cache_info
 from pages import overview, reservations, trends, expenses
 
 st.set_page_config(
@@ -13,13 +14,22 @@ st.set_page_config(
 
 
 @st.cache_data(ttl=300)
-def load_data():
-    """Load and cache all data from Google Sheets."""
-    return extract_and_transform()
+def load_data(use_cache: bool = False):
+    """Load and cache all data from Google Sheets or local cache."""
+    return extract_and_transform(use_cache=use_cache)
 
 
 # Sidebar navigation
 st.sidebar.title("🏠 Mermaid Digs")
+
+# Data source toggle
+cache_info = get_cache_info()
+has_cache = cache_info["files"] > 0
+use_cached_data = st.sidebar.toggle("Use cached data", value=has_cache)
+if has_cache:
+    st.sidebar.caption(f"Cache: {cache_info['files']} files, from {cache_info['oldest']}")
+else:
+    st.sidebar.caption("Cache: No cached data yet")
 
 page = st.sidebar.radio(
     "Navigate",
@@ -30,7 +40,7 @@ page = st.sidebar.radio(
 # Load data
 try:
     with st.spinner("Loading data..."):
-        data = load_data()
+        data = load_data(use_cache=use_cached_data)
 
     # Year selector (for pages that need it)
     available_years = sorted(

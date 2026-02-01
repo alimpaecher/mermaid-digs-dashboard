@@ -1,0 +1,478 @@
+[
+  [
+    "year",
+    "date",
+    "category",
+    "description",
+    "amount"
+  ],
+  [
+    "2016",
+    "2016-11-02",
+    "painting",
+    "Paint etc. - Conwell 11/2/16",
+    "150.16"
+  ],
+  [
+    "2016",
+    "2016-11-29",
+    "repairs",
+    "Fence & outdoor shower deposit 11/29/2016",
+    "1215"
+  ],
+  [
+    "2017",
+    "2017-01-01",
+    "repairs",
+    "Roof - Paul Johnson 1/2017",
+    "9000"
+  ],
+  [
+    "2017",
+    "2017-01-31",
+    "repairs",
+    "Roof - Paul Johnson 1/31/17",
+    "9850"
+  ],
+  [
+    "2017",
+    "2017-02-14",
+    "repairs",
+    "Ceilings - Michel 2/14/17",
+    "2000"
+  ],
+  [
+    "2017",
+    "2017-03-13",
+    "repairs",
+    "Ceilings - Michel 3/13/17",
+    "3630"
+  ],
+  [
+    "2017",
+    "2017-03-26",
+    "furniture",
+    "Couches - 3/26/17",
+    "3359"
+  ],
+  [
+    "2017",
+    "2017-03-25",
+    "decor",
+    "Deco - Homegoods 3/25/17",
+    "158"
+  ],
+  [
+    "2017",
+    "2017-04-03",
+    "supplies",
+    "Lockboxes - 4/3/2017",
+    "67"
+  ],
+  [
+    "2017",
+    "2017-04-03",
+    "repairs",
+    "Gutters & Downspots - 4/3/17",
+    "1500"
+  ],
+  [
+    "2017",
+    "",
+    "repairs",
+    "Walls painted",
+    "3100"
+  ],
+  [
+    "2017",
+    "",
+    "cleaning",
+    "Cleaning - 1st meeting with Desmond & Racquel",
+    "200"
+  ],
+  [
+    "2017",
+    "",
+    "outdoor",
+    "Outdoors - Mulch & loom",
+    "547"
+  ],
+  [
+    "2017",
+    "",
+    "trash",
+    "Conwell - bulbs & trash cans",
+    "54"
+  ],
+  [
+    "2017",
+    "",
+    "cleaning",
+    "Cleaning supplies - Big Lots",
+    "125"
+  ],
+  [
+    "2017",
+    "",
+    "furniture",
+    "Misc home stuff - Target (metal basement shelves)",
+    "181"
+  ],
+  [
+    "2017",
+    "2017-04-01",
+    "appliances",
+    "Grill - Sears 4/2017",
+    "210"
+  ],
+  [
+    "2017",
+    "2017-04-20",
+    "appliances",
+    "Fans 4/20/17",
+    "55"
+  ],
+  [
+    "2017",
+    "2017-04-27",
+    "repairs",
+    "Fence & outdoor shower 4/27/17",
+    "1215"
+  ],
+  [
+    "2017",
+    "2017-04-29",
+    "cleaning",
+    "National Wholelsale cleaning supplies 4/29",
+    "119"
+  ],
+  [
+    "2017",
+    "2017-04-29",
+    "outdoor",
+    "Dollar tree cleaning supplies 4/29",
+    "39"
+  ],
+  [
+    "2017",
+    "",
+    "outdoor",
+    "Yard clean out - Desmond",
+    "540"
+  ],
+  [
+    "2017",
+    "",
+    "plumbing",
+    "Plumbing outdoor shower, locks, etc - Lon",
+    "700"
+  ],
+  [
+    "2017",
+    "2017-05-03",
+    "appliances",
+    "Bestbuy TV mount 5/3",
+    "85"
+  ],
+  [
+    "2017",
+    "",
+    "appliances",
+    "Desmond - yard, futon, grill",
+    "300"
+  ],
+  [
+    "2017",
+    "",
+    "decor",
+    "HomeGoods",
+    "111"
+  ],
+  [
+    "2017",
+    "2017-05-22",
+    "other",
+    "National Wholelsale 5/22",
+    "156"
+  ],
+  [
+    "2017",
+    "2017-05-22",
+    "outdoor",
+    "Dollar tree cleaning supplies 5/22",
+    "17"
+  ],
+  [
+    "2017",
+    "",
+    "decor",
+    "TJ Maxx",
+    "26"
+  ],
+  [
+    "2017",
+    "2017-05-22",
+    "appliances",
+    "Joe & Son Fridge 5/22",
+    "660"
+  ],
+  [
+    "2017",
+    "",
+    "outdoor",
+    "Gravel",
+    "43"
+  ],
+  [
+    "2017",
+    "",
+    "repairs",
+    "Driveway (Desmond) check",
+    "600"
+  ],
+  [
+    "2017",
+    "2017-07-01",
+    "electric",
+    "Rise Engineering - Energy Efficiency 7/17",
+    "860"
+  ],
+  [
+    "2017",
+    "",
+    "other",
+    "Lon remainder",
+    "1600"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "Tiles & supplies: Tilery",
+    "1601"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "Tiles: Mid-cape materials",
+    "144"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "Entryway labor",
+    "1805"
+  ],
+  [
+    "2018",
+    "",
+    "solar",
+    "Solar Deposit",
+    "500"
+  ],
+  [
+    "2018",
+    "",
+    "solar",
+    "Solar Installation",
+    "26069"
+  ],
+  [
+    "2018",
+    "",
+    "appliances",
+    "Washer & Dryer: Joe & Sons",
+    "1884"
+  ],
+  [
+    "2018",
+    "",
+    "appliances",
+    "Vaccum bags: Amazon",
+    "67.41"
+  ],
+  [
+    "2018",
+    "",
+    "furniture",
+    "Couch cover: Amazon",
+    "59.98"
+  ],
+  [
+    "2018",
+    "",
+    "decor",
+    "Pillow covers: Amazon",
+    "16.99"
+  ],
+  [
+    "2018",
+    "",
+    "outdoor",
+    "Dollar tree: soaps",
+    "38.25"
+  ],
+  [
+    "2018",
+    "",
+    "decor",
+    "Marshalls: sheets",
+    "20"
+  ],
+  [
+    "2018",
+    "",
+    "painting",
+    "Conwell: paint for trim",
+    "144"
+  ],
+  [
+    "2018",
+    "",
+    "supplies",
+    "Staples",
+    "27"
+  ],
+  [
+    "2018",
+    "",
+    "other",
+    "Tin Pan Alley",
+    "153"
+  ],
+  [
+    "2018",
+    "",
+    "supplies",
+    "Supplies (showerhead, steel wool)",
+    "40"
+  ],
+  [
+    "2018",
+    "",
+    "outdoor",
+    "Mulch: Bayberry Gardens",
+    "194"
+  ],
+  [
+    "2018",
+    "",
+    "pest_control",
+    "Pest control: Fowler & Sons",
+    "225"
+  ],
+  [
+    "2018",
+    "",
+    "solar",
+    "Solar final payment",
+    "2298"
+  ],
+  [
+    "2018",
+    "",
+    "appliances",
+    "Washer & Dryer: Joe & Sons",
+    "75"
+  ],
+  [
+    "2018",
+    "",
+    "decor",
+    "D\u00e9cor: Moby's cargo",
+    "22.28"
+  ],
+  [
+    "2018",
+    "",
+    "other",
+    "Gifts: Chocolate caf\u00e9",
+    "80.62"
+  ],
+  [
+    "2018",
+    "",
+    "appliances",
+    "Vacuum maintenance central vac",
+    "274"
+  ],
+  [
+    "2018",
+    "",
+    "septic",
+    "Noon's septic",
+    "475"
+  ],
+  [
+    "2018",
+    "",
+    "appliances",
+    "Lamp (Amazon)",
+    "70"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "Patio (Chris Cariera)",
+    "3500"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "House supplies for back door",
+    "213.59"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "House supplies for back door",
+    "44.74"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "House supplies for back door",
+    "123.93"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "House supplies for back door - Shepleys",
+    "123.61"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "Back door - Robin",
+    "475"
+  ],
+  [
+    "2018",
+    "",
+    "repairs",
+    "Patio (Chris Cariera) remaining",
+    "10159"
+  ],
+  [
+    "2018",
+    "",
+    "other",
+    "Shepley",
+    "123"
+  ],
+  [
+    "2018",
+    "",
+    "appliances",
+    "D\u00e9cor: Amazon lamp",
+    "66"
+  ]
+]
