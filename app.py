@@ -13,6 +13,29 @@ st.set_page_config(
 )
 
 
+def check_password():
+    """Simple password gate for private access. Skipped if app_password not set."""
+    app_password = st.secrets.get("app_password", "")
+    if not app_password:
+        return True  # No password configured, allow access
+
+    if st.session_state.get("authenticated"):
+        return True
+
+    password = st.text_input("Password", type="password", key="password_input")
+    if password:
+        if password == app_password:
+            st.session_state.authenticated = True
+            st.rerun()
+        else:
+            st.error("Incorrect password")
+    return False
+
+
+if not check_password():
+    st.stop()
+
+
 @st.cache_data(ttl=300)
 def load_data(use_cache: bool = False):
     """Load and cache all data from Google Sheets or local cache."""
