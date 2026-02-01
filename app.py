@@ -4,7 +4,7 @@ import streamlit as st
 
 from etl.pipeline import extract_and_transform
 from etl.cache import get_cache_info
-from pages import overview, reservations, trends, expenses
+from views import overview, reservations, trends, expenses
 
 st.set_page_config(
     page_title="Mermaid Digs Dashboard",
