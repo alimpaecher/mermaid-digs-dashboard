@@ -33,7 +33,10 @@ try:
         data = load_data()
 
     # Year selector (for pages that need it)
-    available_years = sorted(data.reservations_by_year.keys(), reverse=True)
+    available_years = sorted(
+        set(data.reservations_by_year.keys()) | set(data.expenses_by_year.keys()),
+        reverse=True,
+    )
 
     if page != "Trends":
         year_options = ["All Time"] + available_years
