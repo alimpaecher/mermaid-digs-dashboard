@@ -12,6 +12,7 @@ Airbnb property dashboard powered by Streamlit and Google Sheets.
    ```
 
 2. **Configure Google Sheets access:**
+   - Enable the [Google Sheets API](https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=887921529453) for the project
    - Download the JSON key and save it as `credentials.json` in the project root
    - Sheets must be shared with `mermaid-digs-dashboard@mermaid-digs-dashboard.iam.gserviceaccount.com`
 
