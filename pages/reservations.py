@@ -9,16 +9,21 @@ from etl.pipeline import ETLResult
 from components.charts import platform_bar_chart
 
 
-def render(data: ETLResult, year: int):
+def render(data: ETLResult, year: int | None):
     """Render the reservations page.
 
     Args:
         data: ETL result with all data
-        year: Selected year to display
+        year: Selected year to display, or None for all time
     """
-    st.header(f"Reservations - {year}")
+    is_all_time = year is None
+    title = "Reservations - All Time" if is_all_time else f"Reservations - {year}"
+    st.header(title)
 
-    reservations = data.reservations_by_year.get(year, [])
+    if is_all_time:
+        reservations = data.reservations
+    else:
+        reservations = data.reservations_by_year.get(year, [])
 
     if not reservations:
         st.warning(f"No reservation data for {year}")
@@ -98,7 +103,7 @@ def render(data: ETLResult, year: int):
     if filtered:
         table_data = []
         for r in filtered:
-            table_data.append({
+            row = {
                 "Platform": r.platform.title(),
                 "Check-in": r.check_in.strftime("%b %d"),
                 "Check-out": r.check_out.strftime("%b %d"),
@@ -107,7 +112,10 @@ def render(data: ETLResult, year: int):
                 "Guests": r.guest_count,
                 "Revenue": f"${r.total_revenue:,.0f}" if r.is_rental else "-",
                 "Type": "Rental" if r.is_rental else "Owner",
-            })
+            }
+            if is_all_time:
+                row = {"Year": r.year, **row}
+            table_data.append(row)
 
         df = pd.DataFrame(table_data)
         st.dataframe(df, use_container_width=True, hide_index=True)

@@ -36,7 +36,9 @@ try:
     available_years = sorted(data.reservations_by_year.keys(), reverse=True)
 
     if page != "Trends":
-        selected_year = st.sidebar.selectbox("Year", available_years)
+        year_options = ["All Time"] + available_years
+        selected = st.sidebar.selectbox("Year", year_options)
+        selected_year = None if selected == "All Time" else selected
     else:
         selected_year = None
 

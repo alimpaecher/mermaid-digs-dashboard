@@ -10,16 +10,21 @@ from etl.pipeline import ETLResult
 from components.charts import expense_pie_chart
 
 
-def render(data: ETLResult, year: int):
+def render(data: ETLResult, year: int | None):
     """Render the expenses page.
 
     Args:
         data: ETL result with all data
-        year: Selected year to display
+        year: Selected year to display, or None for all time
     """
-    st.header(f"Expenses - {year}")
+    is_all_time = year is None
+    title = "Expenses - All Time" if is_all_time else f"Expenses - {year}"
+    st.header(title)
 
-    expenses = data.expenses_by_year.get(year, [])
+    if is_all_time:
+        expenses = data.expenses
+    else:
+        expenses = data.expenses_by_year.get(year, [])
 
     if not expenses:
         st.warning(f"No expense data for {year}")
