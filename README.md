@@ -12,10 +12,8 @@ Airbnb property dashboard powered by Streamlit and Google Sheets.
    ```
 
 2. **Configure Google Sheets access:**
-   - Create a [Google Cloud service account](https://console.cloud.google.com/iam-admin/serviceaccounts) with Sheets API enabled
    - Download the JSON key and save it as `credentials.json` in the project root
-   - Share your Google Sheet with `mermaid-digs-dashboard@mermaid-digs-dashboard.iam.gserviceaccount.com`
-   - Copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` and add your spreadsheet URL
+   - Sheets must be shared with `mermaid-digs-dashboard@mermaid-digs-dashboard.iam.gserviceaccount.com`
 
 3. **Run the dashboard:**
    ```bash
@@ -27,16 +25,14 @@ Airbnb property dashboard powered by Streamlit and Google Sheets.
 
 1. Push your repo to GitHub (credentials are gitignored)
 2. Connect your repo at [share.streamlit.io](https://share.streamlit.io)
-3. In app settings, add your secrets under **Settings → Secrets** using the format from `.streamlit/secrets.toml.example`, plus the service account credentials:
+3. In app settings, add secrets under **Settings → Secrets**:
    ```toml
-   spreadsheet_url = "https://docs.google.com/spreadsheets/d/..."
-
    [gcp_service_account]
    type = "service_account"
-   project_id = "your-project"
+   project_id = "mermaid-digs-dashboard"
    private_key_id = "..."
    private_key = "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
-   client_email = "...@....iam.gserviceaccount.com"
+   client_email = "mermaid-digs-dashboard@mermaid-digs-dashboard.iam.gserviceaccount.com"
    client_id = "..."
    auth_uri = "https://accounts.google.com/o/oauth2/auth"
    token_uri = "https://oauth2.googleapis.com/token"
