@@ -1,0 +1,10 @@
+# Mermaid Digs Spreadsheet URLs
+# Add the URL for each year's spreadsheet
+
+2025: https://docs.google.com/spreadsheets/d/1vJTlvAdimR1qniKr53TxCnfCekxlFCDL3pbB4NN31Os/edit
+2024: https://docs.google.com/spreadsheets/d/1Ab1evDsuZ_O_bgpv4PkZ_gQEmy5qbkaYoCcej3NH0FQ/edit?gid=757155608#gid=757155608
+2023: https://docs.google.com/spreadsheets/d/18JRFnyyfZVpaCV7wDZmWiB3KgSjjIaqUesNo5kpSxLs/edit?gid=757155608#gid=757155608
+2022: https://docs.google.com/spreadsheets/d/1OQDxfH_PMlHM3geUofNqUX9V4d13Plhglm1uuJpUEmM/edit?gid=757155608#gid=757155608
+2021: https://docs.google.com/spreadsheets/d/16c8YrNcc9XbdA13PfnISJ51aIPGiUSuhANVHl0I3zWo/edit?gid=757155608#gid=757155608
+2020: https://docs.google.com/spreadsheets/d/1XJh9PRgm0ImEjhk3uSSq9JC9iLhV0ylEPKflGG_iOJY/edit?gid=757155608#gid=757155608
+2017-2019: https://docs.google.com/spreadsheets/d/1o1UXQQcG1hvkDKiLoImyOdFWahudg6yRehXzsqtNlVI/edit?gid=543908478#gid=543908478
