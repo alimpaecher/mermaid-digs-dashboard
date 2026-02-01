@@ -108,29 +108,45 @@ def render(data: ETLResult, year: int | None):
     years_with_expenses = sorted([y for y in data.expenses_by_year.keys() if data.expenses_by_year[y]])
 
     if len(years_with_expenses) > 1:
-        # Select category to compare
+        # Select categories to compare (multi-select)
         categories = sorted(set(e.expense_type for e in data.expenses))
-        selected_category = st.selectbox(
-            "Select Category",
-            [c.title() for c in categories],
-            key="expense_category",
+        category_options = [c.title() for c in categories]
+        selected_categories = st.multiselect(
+            "Select Categories",
+            category_options,
+            default=[category_options[0]] if category_options else [],
+            key="expense_categories",
         )
 
-        # Get data for selected category across years
-        category_data = []
-        for y in years_with_expenses:
-            year_expenses = data.expenses_by_year.get(y, [])
-            category_total = sum(
-                e.amount for e in year_expenses
-                if e.expense_type.title() == selected_category
-            )
-            if category_total > 0:
-                category_data.append({"Year": y, "Amount": category_total})
+        if selected_categories:
+            # Get data for selected categories across years
+            category_data = []
+            for y in years_with_expenses:
+                year_expenses = data.expenses_by_year.get(y, [])
+                for cat in selected_categories:
+                    category_total = sum(
+                        e.amount for e in year_expenses
+                        if e.expense_type.title() == cat
+                    )
+                    category_data.append({"Year": y, "Amount": category_total, "Category": cat})
 
-        if category_data:
-            df_cat = pd.DataFrame(category_data)
-            fig = px.bar(df_cat, x="Year", y="Amount")
-            fig.update_layout(yaxis_tickprefix="$", xaxis_title="", yaxis_title="")
-            st.plotly_chart(fig, use_container_width=True)
+            if category_data:
+                df_cat = pd.DataFrame(category_data)
+                fig = px.line(
+                    df_cat,
+                    x="Year",
+                    y="Amount",
+                    color="Category",
+                    markers=True,
+                )
+                fig.update_layout(
+                    yaxis_tickprefix="$",
+                    xaxis_title="",
+                    yaxis_title="",
+                    xaxis={"tickmode": "linear", "dtick": 1},
+                )
+                st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.info("No data for selected categories across years")
         else:
-            st.info(f"No data for {selected_category} across years")
+            st.info("Select at least one category to compare")
