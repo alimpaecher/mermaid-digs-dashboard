@@ -34,16 +34,25 @@ SPREADSHEETS = {
     2019: {
         "id": "1o1UXQQcG1hvkDKiLoImyOdFWahudg6yRehXzsqtNlVI",
         "rentals_sheet": "Rentals 19",
-        "expenses_sheet": None,  # No expenses pivot for 2019
+        "expenses_sheet": "Expenses 19",
+        "expenses_format": "expenses_19",
     },
     2018: {
         "id": "1o1UXQQcG1hvkDKiLoImyOdFWahudg6yRehXzsqtNlVI",
         "rentals_sheet": "Rentals 18",
-        "expenses_sheet": None,
+        "expenses_sheet": "Expenses 2016-2018",
+        "expenses_format": "multi_year",
     },
     2017: {
         "id": "1o1UXQQcG1hvkDKiLoImyOdFWahudg6yRehXzsqtNlVI",
         "rentals_sheet": "Rentals 17",
-        "expenses_sheet": None,
+        "expenses_sheet": "Expenses 2016-2018",
+        "expenses_format": "multi_year",
+    },
+    2016: {
+        "id": "1o1UXQQcG1hvkDKiLoImyOdFWahudg6yRehXzsqtNlVI",
+        "rentals_sheet": None,
+        "expenses_sheet": "Expenses 2016-2018",
+        "expenses_format": "multi_year",
     },
 }

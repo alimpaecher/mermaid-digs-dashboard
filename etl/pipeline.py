@@ -67,15 +67,19 @@ def extract_and_transform(
     all_expenses: list[Expense] = []
 
     for year in years:
-        # Extract and transform rentals
-        raw_rentals = extract_rentals(year, client)
-        reservations = transform_rentals(raw_rentals, year)
-        all_reservations.extend(reservations)
+        config = SPREADSHEETS.get(year, {})
+
+        # Extract and transform rentals (if available)
+        if config.get("rentals_sheet"):
+            raw_rentals = extract_rentals(year, client)
+            reservations = transform_rentals(raw_rentals, year)
+            all_reservations.extend(reservations)
 
         # Extract and transform expenses (if available)
         raw_expenses = extract_expenses(year, client)
         if raw_expenses:
-            expenses = transform_expenses(raw_expenses, year)
+            format_type = config.get("expenses_format", "pivot")
+            expenses = transform_expenses(raw_expenses, year, format_type)
             all_expenses.extend(expenses)
 
     return ETLResult(
